@@ -1,0 +1,32 @@
+{
+	"courses": [
+		{
+			"code": "CCK2KAB4",
+			"name": "Software Contruction"
+		},
+		{
+			"code": "CCK2FAB4",
+			"name": "Software Architecture and Design"
+		},
+		{
+			"code": "CCK2HAB4",
+			"name": "Database"
+		},
+		{
+			"code": "CCK2IAB3",
+			"name": "Computer Network Basics"
+		},
+		{
+			"code": "CCK2LAB3",
+			"name": "Artificial Intelegence"
+		},
+		{
+			"code": "CCK2CAJ2",
+			"name": "Project Level / Base Project"
+		},
+		{
+			"code": "CCK3IAB2",
+			"name": "Scientific Writing Grammar"
+		}
+	]
+}
