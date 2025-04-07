@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace json_implementation
+namespace json_implementation1
 {
     public class Course
     {
@@ -18,7 +18,7 @@ namespace json_implementation
         public List<Course> courses { get; set; }
     }
 
-    class KuliahMahasiswa103022300097
+    class KuliahMahasiswaa103022300097
     {
 
         public static void ReadJSON()
@@ -26,7 +26,7 @@ namespace json_implementation
             try
             {
 
-                string filePath = @"C:\Users\hp\Documents\Project KPL\MOD7\json-implementation\tp7_2_103022300097";
+                string filePath = @"C:\Users\hp\Documents\Project KPL\MOD7\json-implementation\tp7_2_103022300097.json";
 
                 // Baca isi file JSON
                 string jsonString = File.ReadAllText(filePath);
