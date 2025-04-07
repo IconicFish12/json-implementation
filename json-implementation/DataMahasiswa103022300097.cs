@@ -1,18 +1,20 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.IO;
 
-namespace json_implementation
+
+namespace json_implementation1
 {
     class Nama
     {
         public string depan { get; set; }
         public string belakang { get; set; }
     }
-    class DataMahasiswa103022300097
+    class DataMahasiswaa103022300097
     {
         public Nama nama { get; set; }
         public long nim { get; set; }
@@ -20,13 +22,13 @@ namespace json_implementation
 
         public static void ReadJSON()
         {
-            string filePath = @"C:\Users\hp\Documents\Project KPL\MOD7\json-implementation\tp7_1_103022300097";
+            string filePath = @"C:\Users\hp\Documents\Project KPL\MOD7\json-implementation\tp7_1_103022300097.json";
 
             // Baca isi file JSON
             string jsonString = File.ReadAllText(filePath);
 
             // Deserialize ke object
-            DataMahasiswa103022300097 data = JsonSerializer.Deserialize<DataMahasiswa103022300097>(jsonString);
+            DataMahasiswaa103022300097 data = JsonSerializer.Deserialize<DataMahasiswaa103022300097>(jsonString);
 
             // Tampilkan hasil deserialisasi
             Console.WriteLine($"Nama: {data.nama.depan} {data.nama.belakang}");
